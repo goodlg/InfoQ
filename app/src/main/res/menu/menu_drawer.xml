@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/account_conf"
+            android:title="@string/str_account_conf" />
+        <item
+            android:id="@+id/read_list"
+            android:title="@string/str_read_list" />
+        <item
+            android:id="@+id/preference_conf"
+            android:title="@string/str_preference_conf" />
+    </group>
+
+    <item android:id="@+id/settings"
+        android:title="@string/str_settings">
+        <menu>
+            <item
+                android:id="@+id/about"
+                android:title="@string/str_about" />
+            <item
+                android:id="@+id/logout"
+                android:title="@string/str_logout" />
+        </menu>
+    </item>
+</menu>
